@@ -51,3 +51,7 @@ ul {
     z-index:0;
 }
 
+.select_divider {
+	font-size: 1px;
+	background: rgb(0, 0, 0);
+}
