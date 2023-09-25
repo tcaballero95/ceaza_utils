@@ -36,3 +36,18 @@ ul {
     opacity: 0.4;
     z-index: -2;
 }
+
+.oceangramheader{
+    position:absolute;
+    height:721px;
+    width:auto;
+    z-index:2;    
+}
+
+.oceangram{
+    position:relative;
+    height:731px;
+    width:auto;
+    z-index:0;
+}
+
