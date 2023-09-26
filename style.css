@@ -3,7 +3,6 @@
 }
 
 html, body{min-height:100%;}
-body{height:100vh;}
 
 .dropdown-item:hover {
     background-color: #3c9da0;
@@ -37,21 +36,30 @@ ul {
     z-index: -2;
 }
 
+.select_divider {
+	font-size: 1px;
+	background: rgb(0, 0, 0);
+}
+
 .oceangramheader{
     position:absolute;
-    height:721px;
+    height:550px;
     width:auto;
     z-index:2;    
 }
 
 .oceangram{
     position:relative;
-    height:731px;
+    height:560px;
     width:auto;
     z-index:0;
 }
 
-.select_divider {
-	font-size: 1px;
-	background: rgb(0, 0, 0);
+@media (max-width: 992px){
+    .oceangramheader{
+        height: 280px;
+    }
+    .oceangram{
+        height: 290px;
+    }
 }
