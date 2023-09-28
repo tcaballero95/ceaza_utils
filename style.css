@@ -11,11 +11,6 @@ html, body{
     background-color: #00746e98;
 }
 
-ul {
-    list-style-type: disc !important;
-    padding-left: 1em;
-}
-
 .home__video {
     position: fixed;
     top: 50%;
@@ -96,5 +91,19 @@ ul {
     color: #ffffff;
 }
 
+.btn-check:focus + .btn, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
 
-  
+.navbar-toggler-icon {
+    font-size: 0.8rem;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
