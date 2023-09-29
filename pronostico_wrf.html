@@ -64,12 +64,12 @@
             <h1 class="text-center" style="font-weight: bold;"> Pronóstico Meteorológico - Modelo WRF </h1>
         </div>
 
-        <ul class="nav nav-tab justify-content-center" id="myTabs" role="tablist"">
-            <li class="nav-item" role="presentation" style="background-color: rgb(40, 40, 40); border-radius: 5px; margin: 5px; width: 200px;">
-                <a class="nav-link active" data-toggle="tab" href="#maps" role="tab" style="color: whitesmoke;">Mapas</a>
+        <ul class="nav nav-tab justify-content-center" id="myTabs" role="tablist">
+            <li class="nav-item text-center mx-2" role="presentation">
+                <a class="nav-link btn btn-dark active" data-toggle="tab" href="#maps" role="tab" style="color: whitesmoke;">Mapas</a>
             </li>
-            <li class="nav-item" role="presentation" style="background-color: rgb(40, 40, 40); border-radius: 5px; margin: 5px; width: 200px;">
-                <a class="nav-link" data-toggle="tab" href="#ts" role="tab" style="color: whitesmoke;">Series de Tiempo</a>
+            <li class="nav-item text-center mx-2" role="presentation">
+                <a class="nav-link btn btn-dark" data-toggle="tab" href="#ts" role="tab" style="color: whitesmoke;">Series de Tiempo</a>
             </li>
         </ul>
 
@@ -79,14 +79,14 @@
             <div class="tab-pane active" id="maps" role="tabpanel" aria-labelledby="maps-tab" tabindex="0"> 
                 <div class="container w-50 text-center my-3"><h3>Mapas regionales</h3></div>
                 <div class="row justify-content-center mt-4 select_box">
-                    <select class="selectpicker mb-3 w-25" data-style="btn-dark" data-size="6" data-live-search="true" name="image_selector" onchange="updateImage()">
+                    <select class="selectpicker mb-3 w-25" data-style="btn-dark" data-size="6" data-live-search="false" name="image_selector" onchange="updateImage()">
                         <option value="CURRENT_Temperatura_min.png">Temperatura Mínima Diaria</option>
                         <option value="CURRENT_Temperatura_max.png">Temperatura Máxima Diaria</option>
                         <option value="CURRENT_Precipitación.png">Precipitación Acumulada Diaria</option>
                     </select>
                 </div>
                 
-                <div style="margin-right: 10px; margin-left: 10px;">
+                <div style="margin-right: 10px; margin-left: 10px; margin-top: 20px;">
                     <div class="row mx-0 px-0 justify-content-center">
                         <img id="image_display" src="./images/forecast_wrf_maps/CURRENT_Temperatura_min.png" style="width: 100%;">
                     </div>
@@ -96,7 +96,7 @@
             <div class="tab-pane" id="ts" role="tabpanel" aria-labelledby="ts-tab" tabindex="0"> 
                 <div class="container w-50 text-center my-3"><h3>Series de Tiempo por localidad</h3></div>
                 <div class="row justify-content-center mt-4 select_box">
-                    <select class="selectpicker mb-3 w-25" data-style="btn-dark" data-size="6" data-live-search="true" name="image_selector2" onchange="updateImage2()">
+                    <select class="selectpicker mb-3 w-25" data-style="btn-dark" data-size="15" data-live-search="false" name="image_selector2" onchange="updateImage2()">
                         <option value="CURRENT_ts_forecast_Andacollo [Collowara].png">Andacollo (Collowara)</option>
                         <option value="CURRENT_ts_forecast_Canela.png">Canela</option>
                         <option value="CURRENT_ts_forecast_Casa del Encanto.png">Casa del Encanto</option>
@@ -127,7 +127,7 @@
                     </select>
                 </div>
                 
-                <div style="margin-right: 10px; margin-left: 10px; margin-top: -70px; z-index: -1;">
+                <div style="margin-right: 10px; margin-left: 10px; z-index: -1;">
                     <div class="row mx-0 px-0 justify-content-center">
                         <img id="image_display2" src="./images/forecast_wrf/CURRENT_ts_forecast_Andacollo [Collowara].png" style="width: 100%;">
                     </div>

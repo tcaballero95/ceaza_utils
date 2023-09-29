@@ -8,7 +8,11 @@ html, body{
 }
 
 .navbar-nav .dropdown-item:hover {
-    background-color: #00746e98;
+    background-color:  rgba(134, 121, 0, 0.664);
+}
+
+.navbar-brand {
+    margin-inline: 2rem;
 }
 
 .home__video {
@@ -62,10 +66,10 @@ html, body{
     color: #ffffff; 
 }
 
-.select_box .dropdown-item.active{
-    background-color: rgb(92, 94, 0);
+/* .select_box .dropdown-item.active{
+    background-color: rgb(147, 150, 0);
     color: #ffffff;
-}
+} */
 
 .select_box .dropdown-item{ 
     background-color: rgba(48, 47, 47, 0.849);
@@ -107,3 +111,8 @@ html, body{
     box-shadow: none;
 }
 
+.btn-dark:focus,
+.btn-dark:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
