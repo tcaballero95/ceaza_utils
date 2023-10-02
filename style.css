@@ -63,6 +63,14 @@ html, body{
     .bootstrap-select .dropdown-menu li a {
         font-size: 0.6rem;
     }
+
+    .buttons .nav-link{
+        font-size: 0.7rem;
+    }
+
+    .tab-content p{
+        font-size: 0.7rem;
+    }
 }
 
 .select_box .dropdown-item:hover{
@@ -121,3 +129,8 @@ html, body{
     box-shadow: none !important;
 }
 
+
+#semaforo{
+    width: 15%;
+    height: auto;
+}
