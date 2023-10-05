@@ -137,17 +137,15 @@ html, body{
 
 .box-overflow {
     display: block;
-    margin-inline: 5%; 
+    margin-inline: 2%; 
     margin-block: 5px;
     overflow-x: scroll;
     overflow-y: scroll;
-    padding-inline: 26%;
 }
 
 .container-text {
     display: flex;
     width: fit-content;
-    justify-content: center;
     margin: auto;
 }
 
