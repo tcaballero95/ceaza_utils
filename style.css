@@ -141,6 +141,7 @@ html, body{
     margin-block: 5px;
     overflow-x: scroll;
     overflow-y: scroll;
+    padding-inline: 26%;
 }
 
 .container-text {
@@ -153,3 +154,5 @@ html, body{
 .pdf-button a{
     font-weight: 800;
 }
+
+
